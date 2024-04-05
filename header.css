@@ -1,0 +1,51 @@
+:root{
+    --verde--principal--:#358F64;
+    --preto--claro--:#121212;
+    --preto--:#000000;
+    --branco--:#FFFFFF;
+}
+
+
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+header{
+display: grid;
+grid-template-columns: 33% 33% 33%;
+align-items: center;
+height: 7.7em;
+padding: 1.7% 3%;
+}
+.nav__shop{
+display: flex;
+color: var(--preto--);
+font-size: 18px;
+font-weight: 800;
+}
+
+.Logo{
+    width: 300px;
+}
+
+.links{
+    text-decoration: none;
+    color: var(--preto--);
+    font-size: 17px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.texto__geral{
+    text-align: center;
+    padding: 13px;
+    background-color: var(--verde--principal--);
+    color: var(--branco--);
+}
+.banner__principal{
+max-width: 100%;
+
+}
